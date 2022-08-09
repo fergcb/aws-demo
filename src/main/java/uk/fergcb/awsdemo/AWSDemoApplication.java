@@ -15,6 +15,6 @@ public class AWSDemoApplication {
 
     @GetMapping
     public String sayHello() {
-        return "Hello, World!";
+        return "Hola, Mundo!";
     }
 }
