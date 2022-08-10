@@ -17,7 +17,7 @@ jobs:
         with:
           java-version: 17
       - name: Build with Maven
-        run: mvn -B package -DskipTests --file pom.xml
+        run: mvn -B package -Pprod --file pom.xml
       - name: Upload JAR
         uses: actions/upload-artifact@v2
         with:
